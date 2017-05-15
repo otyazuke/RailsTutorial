@@ -39,6 +39,9 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13.0'
   gem 'selenium-webdriver'
+  gem 'minitest-reporters',       '1.1.9'
+  gem 'guard',                    '2.13.0'
+  gem 'guard-minitest',           '2.4.4'
 end
 
 group :development do
@@ -55,3 +58,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'minitest', '~> 5.10', '!= 5.10.2'
+gem 'bootstrap-sass', '3.3.6'
+gem 'rails-controller-testing'
+gem 'bcrypt'
